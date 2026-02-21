@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCL启动器下载</title>
+    <title>MWSL启动器下载</title>
     <style>
-        /* 极简重置 + 基础样式 */
+    
         * {
             margin: 0;
             padding: 0;
@@ -22,7 +22,7 @@
             padding: 20px;
         }
 
-        /* 卡片容器 —— 让按钮有“家” */
+       
         .demo-card {
             max-width: 700px;
             width: 100%;
@@ -48,33 +48,31 @@
             margin-bottom: 40px;
         }
 
-        /* ===== 重点：超大下载按钮 ===== */
+        
         .super-dl-btn {
-            display: inline-flex;           /* 行内块但支持flex */
+            display: inline-flex;      
             align-items: center;
             justify-content: center;
-            gap: 25px;                       /* 图标与文字间距 */
-            
-            /* 尺寸放大 —— 满足“稍大”需求 */
-            padding: 28px 58px;               /* 上下28，左右58 → 巨型按钮 */
-            font-size: 2.4rem;                 /* 字体巨大 */
+            gap: 25px;                       
+            padding: 28px 58px;              
+            font-size: 2.4rem;                 
             font-weight: 800;
             
-            background: #f5b342;               /* 亮橙金 */
+            background: #f5b342;              
             color: #1e2f2b;
             text-decoration: none;
             
-            border-radius: 100px;               /* 超大圆角 */
+            border-radius: 100px;               
             border: 4px solid #ffe19c;
             box-shadow: 0 16px 0 #a0611f, 0 20px 25px rgba(0,0,0,0.5);
             
             transition: all 0.12s ease;
             
-            /* 保证内部内容不折行 */
+          
             white-space: nowrap;
         }
 
-        /* 悬停效果：向上浮动，更带感 */
+       
         .super-dl-btn:hover {
             transform: translateY(-6px);
             box-shadow: 0 22px 0 #a0611f, 0 25px 30px rgba(0,0,0,0.5);
@@ -82,19 +80,19 @@
             border-color: #ffefc0;
         }
 
-        /* 点击（按下）效果 */
+
         .super-dl-btn:active {
             transform: translateY(8px);
             box-shadow: 0 8px 0 #a0611f, 0 12px 20px rgba(0,0,0,0.5);
         }
 
-        /* 按钮里的图标缩放 */
+        
         .super-dl-btn .btn-icon {
-            font-size: 3.2rem;                /* 比文字更大一点 */
+            font-size: 3.2rem;            
             filter: drop-shadow(2px 4px 2px rgba(0,0,0,0.4));
         }
 
-        /* 小备注 (版本/大小) 可以放在按钮下方 */
+   
         .meta-note {
             margin-top: 35px;
             color: #7bafbd;
@@ -106,7 +104,7 @@
             border: 1px solid #5499ae;
         }
 
-        /* 响应式：如果屏幕太小，按钮适当缩小但依然巨大 */
+       
         @media (max-width: 500px) {
             .super-dl-btn {
                 padding: 20px 30px;
@@ -124,20 +122,22 @@
 </head>
 <body>
     <div class="demo-card">
-        <h2>⛏️ MCL 启动器</h2>
+        <h2>⛏️ MWSL 启动器</h2>
         <p>迷你世界 0.44.2 · PC经典版</p>
 
-        <!-- 超大下载按钮（单独一个文件，独立使用） -->
+      
         <a href="https://workdrive.zohopublic.com.cn/external/636e12c37fd09c8da3845e90dc334b6c5d1f3c0c4f6dd58d6c50182d71734cf4/download" class="super-dl-btn" target="_blank" rel="nofollow">
             <span class="btn-icon">📦</span>
             <span>下载完整包</span>
             <span class="btn-icon">⬇️</span>
         </a>
 
-        <!-- 可选的辅助信息（完全独立于按钮） -->
+  
         <div class="meta-note">
             ⚡ 集成0.44.2数据 | 678 MB | 登录新版本账号就能玩
         </div>
+        
 </body>
 
 </html>
+
